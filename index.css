@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #edf6f9;
+    text-shadow: 0px 0px 1px black;
+ }
+
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    background-color: #1B244A;
+max-width: 575px;
+    max-height: 385px;
+    border: 3px solid white;
+    border-radius: 10px;
+   }
+   .score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 4px;
+   }
+   .number-size{
+  font-size: 90px;
+  color:#F94F6D ;
+   }
+   .buttons button{
+    margin-top:20px ;
+    margin-bottom: 40px;
+  background-color: #1B244A;
+    border: 2px solid white;
+    color: #9AABD8;
+    border-radius: 5px;
+   }
+   .titles{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+   }
+   .teams{
+      display: flex;
+    justify-content: space-around;
+    width: 100%;
+   }
+   body {
+    margin: 0;
+    text-align: center;
+    color: #edf6f9;
+    text-shadow: 0px 0px 1px black;
+ }
+
+
+
+.container {
+   display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+max-width: 575px;
+    max-height: 385px;
+    border: 3px solid white;
+    border-radius: 10px;
+   }
+   .score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 4px;
+   }
+   .number-size{
+  font-size: 90px;
+  color:#F94F6D ;
+   }
+   .buttons button{
+    margin-top:20px ;
+    margin-bottom: 40px;
+  background-color: #1B244A;
+    border: 2px solid white;
+    color: #9AABD8;
+    border-radius: 5px;
+   }
+   .titles{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+   }
+   .team{
+      display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: none;
+   }
+   .btn{
+    color: red;
+    background-color: #1B244A;
+    border: 1px solid white;
+    border-radius: 5px;
+   }
+   .button-footer{
+    margin-bottom: 10px;
+    
+   }

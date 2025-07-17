@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="teams">
+            <div>
+                <h3 class="titles">HOME</h3>
+                <div class="score">
+                       <h2 class="number-size" id="count-el">0</h2>
+                       </div>
+                <div class="buttons">
+                 <button onclick="by1()">+1</button>
+                 <button onclick="by2()">+2</button>
+                 <button onclick="by3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="titles">GUEST</h3>
+                <div class="score">
+                    <h2 class="number-size" id="count-ell">0</h2>
+                </div>
+              
+                     <div class="buttons">
+                <button onclick="bu1()">+1</button>
+                 <button onclick="bu2()">+2</button>
+                 <button onclick="bu3()">+3</button>
+                </div>
+                </div>
+            </div>
+                 <div  class="button-footer">
+                <button class="btn" onclick="reset()" id="reset-el"> New game</button>
+                </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
